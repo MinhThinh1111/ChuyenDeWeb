@@ -1,0 +1,54 @@
+.hinhanh {
+    width: 500px;
+    height: 250px;
+
+}
+
+.edit {
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+/* styleThinh.css */
+.form1 {
+    margin: 20px;
+}
+
+.text_edit {
+    font-size: 24px;
+}
+
+.edit {
+    margin-left: 20px;
+}
+
+.form-control-lg {
+    margin-top: 10px;
+}
+
+.hinhanh {
+    margin-top: 10px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.main {
+    padding: 20px;
+}
+.btn btn-primary{
+    font-size: 60px;
+}

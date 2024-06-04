@@ -1,0 +1,513 @@
+.bao-ngoai{
+    padding-top: 50px;
+    display: block;
+    /* width: 100%;
+    height: 1500px; */
+    background: #f6f5f2;
+    overflow: hidden;
+    clear: both;
+}
+.dia-chi{
+    width: 100%;
+    height: 50px;
+    display: flexbox;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.dia-chi .dia-chi-left{
+    width: 73%;
+    height: 100%;
+    float: left;
+  
+    display: flexbox;
+}
+.text-so-phong{
+    font-size: 30px;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin-top: 15px;
+    margin-left: 300px;
+}
+.icon-tim{
+    display: inline-block;
+    float: right;
+     position: relative;
+}
+
+
+.anhTim{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    position: absolute;
+  
+
+}
+.anhTim2{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+    position: absolute;
+}
+.text-khong-du-lieu{
+    font-size: 25px;
+    margin-left: 300px;
+
+}
+
+
+.dia-chi .dia-chi-right{
+    width: 19.%;
+    height: 100%;
+    float: right;
+    display: flex;
+}
+
+
+.thong-tin-chi-tiet{
+    /* width: 100%;
+    height: 600px; */
+    /* display: flexbox; */
+    background: gray;
+
+}
+
+.thong-tin-chi-tiet .thong-tin-chi-tiet-left{
+    float: left;
+    width: 62.8%;
+    /* height: 100%; */
+    margin-right: 1%;
+}
+
+.thong-tin-chi-tiet .thong-tin-chi-tiet-right{
+    float: right;
+    width: 35%;
+}
+.thong-tin-chi-tiet-left-2{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    /* background: turquoise; */
+}
+
+.thong-tin-chi-tiet-left-ctp{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    /* ma */
+}
+.thong-tin-chi-tiet-left-ctp-2{
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.thong-tin-chi-tiet-left-ctct{
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    /* ma */
+}
+.thong-tin-chi-tiet-left-ctct-2{
+   overflow: hidden;
+    clear: both;
+    margin-bottom: 30px;
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.header-thong-tin{
+  width: 100%;
+  height: 40px;
+  margin-left: 10px;
+
+}
+.anhThongTin{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+}
+.textThongTin{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mid-thong-tin{
+    display: inline-block;
+    margin-top: 30px;
+    width: 100%;
+}
+.line-cach-2{
+    height: 0.5px;
+    width: 100%;
+    background: black;
+    position: fixed;
+    bottom: 0;
+    margin-top: 10px;
+
+}
+.item1{
+    display: inline-block;
+    font-size: 15px;
+    width: calc(100%/4);
+}
+.main-content{
+    /* height: 2700px; */
+    background: #f6f5f2;
+    overflow: hidden;
+    clear: both;
+}
+/* .avt-chu-tro{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+} */
+.mid-chu-tro{
+    display: flex;
+    margin-top: 30px;
+    overflow: hidden;
+    clear: both;
+     z-index: -1;
+}
+.mid-chu-tro-2 {
+    display: flexbox;
+    margin-top: 20px;
+   height: 70px;
+}
+
+.avt-chu-tro-2{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+}
+.thong-tin-chu-tro-2{
+    margin-top: 15px;
+    margin-left: 10px;
+    display: inline-block;
+
+}
+.btn-chat-2{
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+}
+.danh-sach-lien-quan{
+    /* width: 100%;
+    height: 700px; */
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    clear: both;
+}
+.thong-tin-chu-tro{
+    display: inline-block; 
+    margin-top: 6px;
+    margin-left: 12px;
+ }
+.header-danh-sach{
+    width: 100%;
+    height: 57px;
+    text-align: center;
+}
+.content-danh-sach{
+    display: flexbox;
+    padding: 0px 25px;
+    width: 100%;
+    height: 210px;
+    /* background: green; */
+}
+.content-danh-sach-left{
+    float: left;
+    width: 19%;
+    height: 180px;
+    /* background: red; */
+    border-radius: 10px;
+}
+.content-danh-sach-right{
+    float: right;
+    width: 80%;
+    height: 100%;
+    /* background: violet; */
+    height: 180px;
+}
+.anhPhong{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+.soPhong{
+    font-size: 23px;
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    color: black;
+}
+.thongTinChung{
+    height: 150px;
+    width: 100%;
+    display: flexbox;
+
+}
+.iconThongTin{
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    margin-right: 8px;
+
+}
+.thongTinChung-item{
+    height: 25px;
+    margin-bottom: 20px;
+}
+.textThongTin2{
+    display: inline-block;
+    font-size: 20px;
+}
+.thongTinChung-item2{
+    height: 25px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+.thongTinhChung-right{
+    float: right;
+    /* background: yellow; */
+width: 60%;
+height: 120px;
+display: flexbox    ;
+
+}
+.thongTinChung-left{
+float: left;
+width: 30%;
+}
+.danh-gia-left2{
+    width: calc(100%/2);
+}
+.gia{
+    font-size: 40px;
+    color: #f73486;
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 00px;
+}
+.line-cach{
+    width: 96.2%;
+    height: 1px;
+    background: gray;
+    padding: 0px 25px;
+    position: fixed;
+    bottom: 0;
+    margin-bottom: 15px;
+}
+
+.thongTinhChung-right-left{
+    float: left;
+}
+.thongTinhChung-right-right{
+    float: right;
+    margin-top: 30px;
+}
+.icon-danh-gia{
+    width: 35px;
+    height: 35px;
+}
+.danh-gia-left{
+    float: left;
+    width: calc(100%/4);
+    margin-bottom: 20px;
+}
+.danh-gia-right{
+    float: right;
+}
+.text-danh-gia{
+    font-size: 20px;
+}
+.thong-tin-chu-tro2{
+    display: inline-block;
+    margin-left: 5px;
+}
+.icon-play{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.item2{
+    display: inline-block;
+}
+.text-tien-ich{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.mid-thong-tin2{
+    display: inline-block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+
+.textLienQuan{
+    height: 100%;
+    margin-left: 550px;
+    font-weight: bold;
+    font-size: 25px;
+    width: 280px;
+}
+.thong-tin{
+    /* height: 100%;
+    width: 100%; */
+    background: #f6f5f2;   
+    overflow: hidden;
+    clear: both;
+
+    /* margin-top: 50px; */
+}
+.anh-chi-tiet-phong-tro{
+    width: 100%;
+    height: 510px;  
+    /* background: yellow; */
+    background: white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.chi-tiet{
+    width: 500px;
+    height: 200px;
+    background: greenyellow;
+}
+
+.label-thong-tin2{
+    margin-bottom: 10px;
+}
+
+
+.bg-green_map{
+    /* background: #008000; */
+    /* position: fixed; */
+    width: 100%;
+    height: 600px;
+    top: 20%;
+    transition: 0.3s;
+    border-radius: 50px;
+    overflow-x: auto;
+    /* Cho phép cuộn ngang khi nội dung vượt quá chiều rộng của container */
+    -ms-overflow-style: none;
+    white-space: nowrap;
+    
+}
+.bg-green_map::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none;
+}
+.item{
+    border-radius: 50px;
+    width: 700px;
+    height: 400px;
+    background: #ffa500;
+    margin: 50px 50px;
+}
+.item_goidk{
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 50px;
+    margin: 50px 50px;
+}
+.item_goidk:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+    box-shadow: 1px 10px 20px #000;
+}
+.item:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+    box-shadow: 1px 10px 20px #000;
+}
+.item_thong_bao{
+    width: auto;
+    height: auto;
+    border: #000 solid 1px;
+}
+.item_thong_bao:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+    box-shadow: 1px 10px 20px #000;
+}
+.wrap{
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 100px;
+}
+.modal_video_review{
+    display: none; /* mặc định được ẩn đi */
+    position: fixed; /* vị trí cố định */
+    z-index: 2; /* Ưu tiên hiển thị trên cùng */
+    padding-top: 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4);
+}
+.area_content_video_review{
+    margin: 0 auto;
+    width: 50%;
+    height: 95%;
+    background: #fff;
+    border-radius: 50px;
+}
+.title_area_content_video_review_tro{
+    width: 100%;
+    height: 10%;
+    background: #CAF272;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.area_video_review_tro{
+    width: 100%;
+    height: 80%;
+    
+}
+.footer_area_content_video_review_tro{
+    width: 100%;
+    height: 10%;
+    background: #D9A23D;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+.footer_area_content_video_review_tro:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+

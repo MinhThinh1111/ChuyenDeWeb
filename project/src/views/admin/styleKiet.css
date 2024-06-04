@@ -1,0 +1,13 @@
+.txt_red {
+    font-weight: bold;
+    color: red;
+}
+
+.txt_green {
+    font-weight: bold;
+    color: green;
+}
+
+.btn_margin_left {
+    margin-left: 10px;
+}

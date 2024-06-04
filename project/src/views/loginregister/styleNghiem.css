@@ -1,0 +1,309 @@
+.manhinhadmin{
+    background: #222e3c;
+     width: 100%;
+     height: 700px;
+     border-radius: 10%;
+     position: relative;
+     box-shadow: 10px 10px #7d8793;
+ }
+ .bg_admin{
+     width: 100%;
+     height: 20%;
+ }
+ .title_admin{
+     margin-left: 50px;
+ }
+ .thongtin_content{
+     border: solid 10px #222e3c;
+     background: white;
+     width: 100%;
+     height: 80%;
+     border-radius: 10%;
+     z-index: -1;
+ }
+ .avt{
+     position: absolute;
+     width: 20%;
+     height: 30%;
+     border-radius: 50%;
+     border: 10px solid black;
+     margin-top: 3%;
+     margin-left: 70%;
+     z-index: 1;
+ }
+ .title_admin{
+     font-weight: bold;
+     font-size: 2em;
+ }
+ .noidung_content{
+    
+     width: 60%;
+     height: 80%;
+     padding: 10px;
+
+ }
+ .labeladmin{
+     font-size: 1.2em;
+     font-weight: bold;
+ }
+ .bbt{
+     margin-right: 10px;
+ }
+ .btnChinhSua{
+    margin-left: 50%;
+ }
+
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* mặc định được ẩn đi */
+    position: fixed; /* vị trí cố định */
+    z-index: 2; /* Ưu tiên hiển thị trên cùng */
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: auto;
+    border-radius: 10%;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 90%;
+    height: 90%;
+    border-radius: 10%;
+    text-align: center;
+  }
+.form_edit_chinh_sach{
+    margin: 0 auto;
+    width: 100%;
+    height: 80%;
+    background: yellow;
+    border: #000 solid 10px;
+    padding: 10px;
+    border-radius: 5%;
+}
+.form_chinhsach{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    padding: 5px;
+    margin-left: 10px;
+    border: solid #000 2px;
+}
+.tieudechinhsach{
+    color: #000;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.man_hinh_nhan_tin{
+    width: 100%;
+    height: 700px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.list_nguoi_nhan_tin::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none;}
+.list_nguoi_nhan_tin{
+    background: #f5f6fa;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    padding: 15px 10px;
+    height: 100%;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+
+}
+
+.card_nhan_tin:hover{
+    cursor: pointer;
+}
+.card_nhan_tin{
+    margin-top: 15px;
+    background: #fff;
+    max-width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    display: flex;
+}
+.img_card_nhan_tin{
+    padding: 15px;
+    display: inline-block;
+   
+}
+.img_avt_nhan_tin{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+}
+.content_card_nhan_tin{
+    padding-top: 25px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+   
+}
+.content_top_nhan_tin{
+    display: flex;
+}
+.ten_nhan_tin{
+    font-size: 1.1em;
+    font-weight: bold;
+    max-width: 70%;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.thoi_gian_tin_nhan{
+    max-width: 30%;
+    text-align: end;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.content_bottom_nhan_tin{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.hien_thi_tin_nhan{
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    background: #fff;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    border-right: solid 1px #f5f6fa;
+}
+.tieu_de_ten_nguoi_nhan{
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    background: #0171f9;
+    border-top: solid 1px #f5f6fa;
+    border-right: solid 1px #f5f6fa;
+    border-bottom: solid 1px #f5f6fa;
+    transform: translateX(-12px);
+    border-top-right-radius: 40px;
+    display: flex;
+
+}
+.vung_gui_tin_nhan{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 13%;
+    background: #fff;
+    border-top: solid 1px #f5f6fa;
+    border-right: solid 1px #f5f6fa;
+    border-bottom: solid 1px #f5f6fa;
+    transform: translateX(-12px);
+    border-bottom-right-radius: 40px;
+    padding-left: 10px;
+}
+.input_tin_nhan::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none;}
+.input_tin_nhan{
+    width: 90%;
+    padding: 10px;
+    transform: translateY(50%);
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    resize: none;
+}
+.btn_send{
+    transform: translateY(30%);
+    transform: translateX(100%);
+    color: #0176ff;
+}
+.img_doi_phuong{
+    width: 10%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+.src_avt_doi_phuong{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.ten_doi_phuong{
+    margin-top: 20px;
+    display: inline-block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 1.1em;
+    color: #fff;
+}
+.vung_hien_thi_tin_nhan::-webkit-scrollbar { 
+    width: 0 !important;
+    display: none;
+}
+.vung_hien_thi_tin_nhan{
+    margin-top: 11%;
+    width: 100%;
+    height: 520px;
+    overflow: auto;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    resize: none;
+}
+.card_view_send{
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    word-wrap: break-word;
+}
+.card_view_item_send{
+    float: right;
+    padding: 10px;
+    display: inline;
+    background: #018bfa;
+    color: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 0.8em;
+    max-width: 80%;
+}
+.card_view_receive{
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    width: 100%;
+    word-wrap: break-word;
+}
+.card_view_item_receive{
+    float: left;
+    padding: 10px;
+    display: inline;
+    background: #594D48;
+    color: #fff;
+    max-width: 80%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 0.8em;
+}
+
+
+
